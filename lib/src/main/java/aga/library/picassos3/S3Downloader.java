@@ -19,10 +19,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.concurrent.CountDownLatch;
 
-/**
- * Created on 15.04.16
- * @author artem
- */
 public final class S3Downloader implements Downloader {
     private static final String TAG = "S3Downloader";
 
